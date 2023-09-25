@@ -3,7 +3,7 @@ import './App.css';
 import SpeechRecognition from 'react-speech-recognition';
 import { useSpeechRecognition } from 'react-speech-recognition';
 import useClipboard from 'react-use-clipboard';
-import { useState } from 'react';
+import { useState } from 'react';//usestate
 
 function App() {
 
