@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Work+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+
+
+h1{
+  color: rgb(43 45 56);
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: -0.2px;
+  font-family: "Merriweather", serif;
+}
+.heading_area{
+  margin: 20px 0px 40px 20px;
+}
+.text_area{
+  width: 100%;
+  box-shadow: 0 12px 48px 0px rgb(109 117 141 / 20%);
+  background: rgb(255 255 255);
+  max-width: 50rem;
+  min-height: 350px;
+  height: auto;
+  resize: none;
+  white-space: pre-wrap;
+  padding: 6px;
+  letter-spacing: 1px;
+}
+.btn{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.button{
+  background: rgb(17 166 131);
+  color: rgb(255 255 255);
+  border-radius: 6px;
+  padding: 16px 32px;
+  border: none;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin: 4px;
+  display: flex;
+  position: relative;
+  margin-top: -30px;
+  cursor: pointer;
+ 
+  
+}
+button:hover{
+  background-color: rgb(204, 139, 54);
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .text_area {
+    min-height: 250px;
+    padding: 4px;
+  }
+
+  .button {
+    padding: 12px 24px;
+    font-size: 14px;
+    margin-top: -20px;
+  }
+}
